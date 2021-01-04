@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.banner-top{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.orange-highlight{
+    color: orange;
+
+}
+h1{
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.half-width h3{
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 18px;
+}
+
+.half-width p{
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #ff0000b0, orange);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding: 3%;
+    margin-left: 5%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+/**********************
+End of headaer design area
+****************************/
+
+#txt{
+    font-size: 30px;
+}
+
+.dream-bg{
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
+/**********************
+End of Dream design area
+****************************/
+
+#fnt{
+    font-size: 30px;
+}
+#fnt1{
+    font-size: 20px;
+}
+.single-wdeep{
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ff00008e, #ffa600cc);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice:1;
+}
+#font-com{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.copyright-1{
+    color: hsl(295, 100%, 51%);
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 800;
+}
+
+
+
